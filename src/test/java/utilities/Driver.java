@@ -9,13 +9,14 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.concurrent.TimeUnit;
 
 public class Driver {
+    private Driver(){
+    }
 
 
     private static WebDriver driver;
 
     // driver getter
     public static WebDriver getDriver() {
-
         if(driver==null){
             // browser Driver setup
             switch(ConfigReader.getProperties("browser")) {
@@ -36,7 +37,9 @@ public class Driver {
         }
 
         //impilicity Wait setup
-        driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(6, TimeUnit.SECONDS);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().pageLoadTimeout(12, TimeUnit.SECONDS);
 
         return driver;
     }
