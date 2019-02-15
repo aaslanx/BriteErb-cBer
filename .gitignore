@@ -1,0 +1,8 @@
+# git ignore files and folders
+target/*
+!target/default-cucumber-reports
+target/default-cucumber-reports/*
+!target/default-cucumber-reports/index.html
+*.DS_Store
+*.idea
+*.log
