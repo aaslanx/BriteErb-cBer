@@ -11,7 +11,7 @@ Documentation
 -------------
 * will be added soon
 
-Download the framework Framework
+Download the framework
 --------------
 * https://github.com/aaslanx/BriteErb-cBer
 
