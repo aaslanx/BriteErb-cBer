@@ -20,15 +20,15 @@ Framework Architecture
 	Project-Name
 		|
 		|_src/test/java
-		|	|_pages
+		|   |_pages
 		|   |   |_ContactsLoginPage
 		|   |   |_ContactsPage
 		|   |   |_HomePage
 		|   |   |_ImportUserPage
 		|   |   |_LoginPage
-		|	|	|_NewContact
+		|   |   |_NewContact
 		|   |   |_SystemNavigatesToPage
-		|	|	|...
+		|   |   |...
 		|	|_runners
 		|	|	|_CukesRunner
 		|	|	|...
@@ -37,10 +37,10 @@ Framework Architecture
 		|	|	|_Common_steps
 		|	|	|...
 		|   |_utilities
-		|       |_ApplicationConstants
-		|       |_BrowserUtils
-		|       |_ConfigReader
-		|       |_Driver
+		|   |   |_ApplicationConstants
+		|   |   |_BrowserUtils
+		|   |   |_ConfigReader
+		|   |   |_Driver
 		|
 		|
 		|_src/test/resources
