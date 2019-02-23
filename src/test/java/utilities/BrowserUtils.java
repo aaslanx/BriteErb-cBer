@@ -189,6 +189,10 @@ public class BrowserUtils {
     /*
     You may add your methods from this line
      */
+    public static WebElement waitForClickablility(WebElement element, int timeout) {
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), timeout);
+        return wait.until(ExpectedConditions.elementToBeClickable(element));
+    }
 
 
 
