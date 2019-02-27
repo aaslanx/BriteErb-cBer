@@ -2,6 +2,7 @@ package step_definitions;
 
 import cucumber.api.java.en.*;
 import pages.ContactsPage;
+import utilities.Pages;
 
 
 public class Common_steps {
@@ -24,11 +25,9 @@ public class Common_steps {
 
     }
 
-    @When("User clicks to import button")
-    public void user_clicks_to_import_button() {
-        cpObj.importButton.click();
 
-    }
+
+
 
 
 }

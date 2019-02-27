@@ -12,7 +12,7 @@ public class Pages {
     private NewContact newContact;
     private SystemNavigatesToPage systemNavigatesToPage;
     private ImportUserPage importuserPage;
-    private ContactActions contactActions;
+   //private ContactActions contactActions;
 
     //-------------------------------------------------------
     public ImportUserPage importuserPage() {
@@ -57,10 +57,10 @@ public class Pages {
         return systemNavigatesToPage;
     }
 
-    public ContactActions contactActions() {
-        if (contactActions == null) {
-            contactActions = new ContactActions();
-        }
-        return contactActions;
-    }
+//    public ContactActions contactActions() {
+//        if (contactActions == null) {
+//            contactActions = new ContactActions();
+//        }
+//        return contactActions;
+    //}
 }
