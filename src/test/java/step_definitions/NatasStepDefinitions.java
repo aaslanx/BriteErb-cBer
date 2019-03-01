@@ -18,7 +18,7 @@ public class NatasStepDefinitions {
     public void clicks(String username, String button) {
         switch(button){
             case "BriteErpButton":
-                systemNavigatesToPage.BriteErpButton.click();
+                systemNavigatesToPage.briteErpButton.click();
                 BrowserUtils.wait(10);
                 break;
             case "contactEphrem":
