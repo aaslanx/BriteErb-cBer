@@ -78,4 +78,19 @@ public class SystemNavigatesToPage {
    @FindBy(css = "div.navbar-collapse.collapse>ul>li:nth-of-type(4)>a>span")
    public WebElement ContactsHeader;
 
+   @FindBy(xpath = "//*[@class ='o_channel_name']")
+   public WebElement general;
+
+   @FindBy(xpath = "//*[@class= 'o_input o_composer_text_field']")
+   public WebElement writeMessage;
+
+   @FindBy(xpath = "//html/body/div/div[2]/div/ol/li")
+   public WebElement AllContactsHeaderOfAPage;
+
+   @FindBy(css = "div.o_chat_header>span")
+   public WebElement conversationWindow;
+
+   @FindBy(xpath = "//*[@class='btn btn-sm o_new_message']")
+   public WebElement newMessage;
+
 }
