@@ -1,5 +1,4 @@
 Feature:
-
     #|Click on "Contacts" on upper left corner|
     #|Click on "Create" on upper left corner|
     #|Click on "Safe" on upper left corner|

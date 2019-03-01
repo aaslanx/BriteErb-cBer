@@ -69,4 +69,11 @@ public class ContactLoginPage {
     @FindBy(css = "div.navbar-collapse.collapse>ul:nth-of-type(3)>li:nth-of-type(2)>ul>li:nth-of-type(2)>div:nth-of-type(4)")
     public WebElement General;
 
+    @FindBy(xpath = "//*[@class = 'btn btn-sm o_filter_button active']")
+    public WebElement Chat;
+
+
+    @FindBy(xpath = "//*[@class = 'o_field_char o_field_widget o_input o_required_modifier']")
+    public WebElement Name;
+
 }
