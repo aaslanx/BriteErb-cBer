@@ -17,8 +17,8 @@ public class ContactsPage {
     //login to contacts page
     public void login(){
         Driver.getDriver().get(ConfigReader.getProperties("url"));
-        BrowserUtils.waitToClick(briteErpDemoButton, 8);
-        briteErpDemoButton.click ();
+        //BrowserUtils.waitToClick(briteErpDemoButton, 8);
+        //briteErpDemoButton.click ();
         email.sendKeys(ConfigReader.getProperties("usernameUser"));
         password.sendKeys(ConfigReader.getProperties("passwordUser"));
         loginButton.click();
@@ -29,8 +29,8 @@ public class ContactsPage {
 
     public void login(String user){
         Driver.getDriver().get(ConfigReader.getProperties("url"));
-        BrowserUtils.waitToClick(briteErpDemoButton, 8);
-        briteErpDemoButton.click ();
+        //BrowserUtils.waitToClick(briteErpDemoButton, 8);
+        //briteErpDemoButton.click ();
         email.sendKeys(ConfigReader.getProperties("username"+user));
         password.sendKeys(ConfigReader.getProperties("password"+user));
         loginButton.click();
